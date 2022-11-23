@@ -19,6 +19,7 @@ import CannonDebugger from 'cannon-es-debugger';
 
 import {createMap} from '@/components/map'
 import {createVehicle} from '@/components/car'
+import { createControls } from '@/controls/gamepad'
 
 let container, scene, renderer, loop, controls, camera
 
